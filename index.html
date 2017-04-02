@@ -1,0 +1,66 @@
+<!-- /project_dir/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title>Демо</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="container" id="header">
+        <ul class="text-right">
+            <li class="rightText">
+                <a>Почта</a>
+                <a>Картинки</a>
+            </li>
+            <li class="rightIcons">
+                <a class="fa fa-th fa-lg" title="Приложения Google"></a>
+                <a class="fa fa-bell fa-lg" title="Оповещения Google"></a>
+                <a class="fa fa-user-circle-o fa-2x" title="Аккаунт Google"></a>        
+            </li>
+        </ul>
+    </div>
+
+    <!-- Logo -->
+    <div class="container logo text-center">
+        <img src="pic/google.png">
+    </div>
+
+    <!-- Search -->
+    <div class="form-group center-block" id="searchBlock">
+        <input type="text" class="form-control" id="searchString">
+        <div class="searchIcon" id="keyboard" data-toggle="tooltip" title="Экранная клавиатура" data-placement="bottom"><i class="fa fa-keyboard-o fa-2x"></i></div>
+        <div class="searchIcon" id="voiceInput" data-toggle="tooltip" title="Голосовой поиск" data-placement="bottom"><img src="pic/mic.png"></div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="text-center">
+        <button class="btn" id="but1">Поиск в Google</button>
+        <button class="btn" id="but2">Мне повезёт!</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="navbar-fixed-bottom panel-footer" id="footer">
+       <!--<ul>
+            <li class="leftBlock">
+                <a href="">Реклама</a>
+                <a href="">Для бизнеса</a>
+                <a href="">Всё о Google</a>
+            </li>
+            <li class="rightBlock">
+                <a href="">Конфиденциальность</a>
+                <a href="">Условия</a>
+                <a href="">Настройки</a>
+                <a href="">Перейти на Google.com</a>
+            </li>
+       </ul>-->
+    </div>
+</body>
+</html>

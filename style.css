@@ -1,0 +1,193 @@
+body {
+	font-family: arial,sans-serif;
+}
+
+
+#header {
+	padding: 0;
+	margin-right: 20px;
+}
+
+#header > ul > li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.text-right {
+	margin-top: 20px;
+	padding: 0;
+}
+
+.rightText {
+	padding: 5px;
+}
+
+.rightText > a {
+	padding: 5px;
+	color: black;
+	font-family: arial,sans-serif;
+	opacity: .75;
+	font-size: 13px;
+}
+
+.rightText > a:hover{
+	color: black;
+	cursor: pointer;
+}
+
+.rightIcons {
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.rightIcons > a {
+	color: gray;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.rightIcons > a:hover {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logo > img {
+	height: auto;
+}
+
+
+@media (min-width: 100px) and (max-width: 550px) {
+	.logo > img {
+		width: 200px;
+	}
+}
+
+@media (max-width: 850px) and (min-width: 550px) {
+	.logo > img {
+		width: 250px;
+	}
+}
+
+
+@media (min-width: 850px) and (max-width: 1300px) {
+	.logo > img {
+		width: 300px;
+	}
+}
+
+@media (min-width: 1300px) {
+	.logo > img {
+		width: 370px;
+	}
+}
+
+#searchString {
+	margin: 0;
+	border: 0;
+	box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+	padding: 6px 9px;
+}
+
+#searchBlock {
+	width: 50%;
+	border-color: rgba(	128, 128, 128, 0.4);
+	border-radius: 2px;
+	padding: 5px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    display: table;
+}
+
+#searchBlock:hover {
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 10px) and (max-width: 270px) {
+	#searchBlock {
+		width: 95%;
+	}
+}
+
+@media (min-width: 270px) and (max-width: 470px) {
+	#searchBlock {
+		width: 90%;
+	}
+}
+
+@media (min-width: 470px) and (max-width: 850px)  {
+	#searchBlock {
+		width: 60%;
+	}
+}
+
+.searchIcon {
+	display: table-cell; 
+	vertical-align: middle;
+	padding: 3px; 
+	width: 30px;
+}
+
+.searchIcon > img {
+	width: auto;
+	height: 25px;
+}
+
+#keyboard > i {
+	color: gray;
+}
+
+#keyboard > i:hover {
+	color: black;
+	cursor: pointer;
+}
+
+#voiceInput:hover {
+	cursor: pointer;
+}
+
+.btn {
+	margin-top: 15px;
+	background-color: #f5f5f5;
+	color: #757575;
+	font-family: arial,sans-serif;
+	height: 36px;
+}
+
+.btn:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+}
+
+.btn:active, .btn:focus {
+	outline: none !important;
+}
+
+#but1 {
+	border-radius: 2px;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+#but2 {
+	border-radius: 2px;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+#footer > ul > li {
+	display: inline;
+	list-style-type: none;
+}
+
+#footer > ul {
+	margin: 0;
+	padding: 0;
+}
+
+.rightBlock {
+	position: absolute;
+}
+
+
+
