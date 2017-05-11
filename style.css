@@ -2,7 +2,6 @@ body {
 	font-family: arial,sans-serif;
 }
 
-
 #header {
 	padding: 0;
 	margin-right: 20px;
@@ -176,18 +175,23 @@ body {
 }
 
 #footer > ul > li {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#footer > ul > li > a {
+	color: #666;
 }
 
 #footer > ul {
 	margin: 0;
 	padding: 0;
+	text-align: center;
 }
 
-.rightBlock {
-	position: absolute;
-}
+
 
 
 
